@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="starship.css">
+</head>
+
+<body>
+  <h1>Select two Starships from the dropdown list to compare</h1>
+  <select id="firstStarship">
+    <option value="Choose a starships" disabled selected>Choose a starships</option>
+    <option value="2">CR90 Corvette</option>
+    <option value="75">V-wing </option>
+    <option value="74">Belbullab-22 Starfighter</option>
+    <option value="65">Jedi Interceptor </option>
+    <option value="3">Star Destroye</option>
+    <option value="59">Trade Fedaration Cruiser </option>
+    <option value="58">Solar Sailer</option>
+    <option value="63">Republic Attack Cruiser</option>
+    <option value="28 ">A-wing </option>
+    <option value="29">B-wing</option>
+    <option value="39">Naboo Fighter</option>
+    <option value="10">Millenium Falcon</option>
+  </select>
+  <select id="secondStarship">
+    <option value="Choose a starships" disabled selected>Choose a starships</option>
+    <option value="2">CR90 Corvette</option>
+    <option value="75">V-wing </option>
+    <option value="74">Belbullab-22 Starfighter</option>
+    <option value="65">Jedi Interceptor </option>
+    <option value="3">Star Destroye</option>
+    <option value="59">Trade Fedaration Cruiser </option>
+    <option value="58">Solar Sailer</option>
+    <option value="63">Republic Attack Cruiser</option>
+    <option value="28 ">A-wing </option>
+    <option value="29">B-wing</option>
+    <option value="39">Naboo Fighter</option>
+    <option value="10">Millenium Falcon</option>
+  </select>
+
+  <button id="compareBtn">Compare</button>
+  
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Starship 1</th>
+        <th>Starship 2</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr id="row-name">
+          <td>Name</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-cost">
+          <td>Cost</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-speed">
+          <td>Speed</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-cargo-size">
+          <td>Cargo Size</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-passengers">
+          <td>Passengers</td>
+          <td></td>
+          <td></td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+
+  <script src="starship.js"></script>
+</body>
+
+</html>
